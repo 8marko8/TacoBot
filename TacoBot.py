@@ -24,7 +24,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix=";", intents=discord.Intents.all())
 botToken = "Hidden"
-general_id = 1392811725312622723 # Replace this with the channel_id that you want the bot to send the message in.
+general_id = 0 # Replace this with the channel_id that you want the bot to send the message in.
 def randomize():
     return random.randint(0, 1) == 1 
 # script
@@ -132,7 +132,7 @@ async def shop(ctx):
     roleEmbed = discord.Embed(
         title="Role Shop",
         description=(
-            "- <@&1392814147938549760> - 200,000,000 🌮 "
+            "- <@&Role_id_here> - 200,000,000 🌮 " # Replace with role id
         ),
         color=discord.Color.gold()
     )
@@ -192,3 +192,5 @@ async def cmds(ctx):
     await ctx.send(embed=embed)
 bot.run(botToken)
 # Made by 98marko and obrules_ on Discord
+# This is my first time publishing a Discord bot, that's why there's a lot of hard-coded variables
+# Thank you
