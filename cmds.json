@@ -1,0 +1,11 @@
+{
+    ";bet **[amount]**": "bet a certain amount of tacos for an even chance to double your bet amount or lose it. **[amount]** must be a positive integer.",
+    ";balance **[@user]**": "show the balance of **[@user]**. Leave empty to see your own balance.",
+    ";pay **[@user] [amount]**": "pay @user the amount input. **[amount]** must be a positive integer.",
+    ";admingive **[@user] [amount]**": "give **[@user]** the amount input from an infinite source. **[amount]** must be a positive integer.",
+    ";lb": "display the leaderboard for most tacos.",
+    ";shop": "show the shop for roles and items.",
+    ";buy **[thing] [amount]**": "buy something from the shop. **[thing]** is case-sensitive. **[amount]** must be a positive integer.",
+    ";showInv **[@user]**": "show the inventory of a user.",
+    ";cmds": "show this menu."
+}
