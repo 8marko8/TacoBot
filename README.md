@@ -4,7 +4,7 @@
 ### v1.0.0 Release
 
 ### ✨ Features
-- do `;cmds` to check availble commands!
+- do `;cmds` to check available commands!
 ### 🐛 Bugs fixes
 None
 ### 🛠️ Improvements
